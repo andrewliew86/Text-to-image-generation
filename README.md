@@ -1,4 +1,4 @@
-# Deploying Stable Diffusion 2 as a Serverless Endpoint on RunPod
+# Deploying a text-to-image model as a serverless endpoint on RunPod
 ## Overview
 This project demonstrates the deployment of Stable Diffusion 2, a powerful image generation model, as a serverless endpoint on RunPod. Stable Diffusion 2 enables the generation of high-quality images from text prompts, making it ideal for applications in creative content generation.
 
