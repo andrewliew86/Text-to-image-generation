@@ -12,10 +12,11 @@ This project demonstrates the deployment of Stable Diffusion 2, a powerful image
 After deploying Stable Diffusion 2 on RunPod, the model performs well, generating high-quality images based on text prompts such as 'Photograph of colorful coral reefs', 'An old photo of cowboys' and 'Watercolor image of a forest'. Inferencing time averages around 7-8 seconds per request, depending on the complexity of the prompt and the RunPod instance used.
 
 ## Notes
-Python Libraries/Tools: Python, diffusers, transformers, RunPod SDK
-Cloud Computing Resources: RunPod instance with at least 24 GB VRAM (e.g., 1x NVIDIA GeForce RTX 4090 pod instance)
-Limitations: Model does not always render humans and animals accurately
-Code was modified from here: https://blog.dreamrunnerlabs.com/deploying-your-preferred-model-on-runpod-serverless-490981fc5b6f
+- **Python Libraries/Tools**: diffusers, transformers, RunPod SDK
+- **Cloud Computing Resources**: RunPod instance with at least 24 GB VRAM (e.g., 1x NVIDIA GeForce RTX 4090 pod instance)
+- **Limitations**: Model does not always render humans and animals accurately
+- *Code was modified from here: https://blog.dreamrunnerlabs.com/deploying-your-preferred-model-on-runpod-serverless-490981fc5b6f
+
 
 Figure: Photo collage of images generated using Stable Diffusion 2 using text prompts
 ![Stable Diffusion 2-generated images](https://github.com/andrewliew86/Text-to-image-generation/blob/main/photo-collage-wide.png)
