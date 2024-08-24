@@ -18,6 +18,6 @@ After deploying Stable Diffusion 2 on RunPod, the model performs well, generatin
 - *Code was modified from here: https://blog.dreamrunnerlabs.com/deploying-your-preferred-model-on-runpod-serverless-490981fc5b6f
 
 
-**Figure: Photo collage of images generated using Stable Diffusion 2 using text prompts**
-![Stable Diffusion 2-generated images](https://github.com/andrewliew86/Text-to-image-generation/blob/main/photo-collage-wide.png)
 
+![Stable Diffusion 2-generated images](https://github.com/andrewliew86/Text-to-image-generation/blob/main/photo-collage-wide.png)
+**Figure: Photo collage of images generated using Stable Diffusion 2 using text prompts**
