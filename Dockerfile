@@ -27,3 +27,5 @@ RUN python3.11 -m pip install --upgrade pip && \
 ADD src .
 
 CMD python3.11 -u /handler.py
+
+LABEL org.opencontainers.image.source=https://github.com/andrewliew86/Text-to-image-generation
