@@ -12,7 +12,7 @@ This weekend project demonstrates the basic deployment of Stable Diffusion 2, a 
 The model was deployed on RunPod via a Docker image created using a RunPod worker template. The model performs well, generating high-quality images based on text prompts such as 'Photograph of colorful coral reefs', 'An old photo of cowboys' and 'Watercolor image of a forest'. Inferencing time averages around 7-8 seconds per request, depending on the complexity of the prompt and the RunPod instance used.
 
 ## Notes
-- **Python Libraries/Tools**: diffusers, transformers, RunPod SDK
+- **Python Libraries/Tools**: Docker, Diffusers, Transformers, RunPod SDK
 - **Cloud Computing Resources**: RunPod instance with at least 24 GB VRAM (e.g., 1x NVIDIA GeForce RTX 4090 pod instance)
 - **Limitations**: Model does not always render humans and animals accurately
 - Code was modified from here: https://blog.dreamrunnerlabs.com/deploying-your-preferred-model-on-runpod-serverless-490981fc5b6f
