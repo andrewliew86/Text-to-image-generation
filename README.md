@@ -1,6 +1,6 @@
-# Deploying a text-to-image model as a serverless endpoint on RunPod
+# Deploying an open source text-to-image model as a serverless endpoint on RunPod via Docker
 ## Overview
-This weekend project demonstrates the basic deployment of Stable Diffusion 2, a powerful image generation model, as a serverless endpoint on RunPod. Stable Diffusion 2 enables the generation of high-quality images from text prompts, making it ideal for applications in creative content generation.
+This weekend project demonstrates the basic deployment of Stable Diffusion 2, a powerful open source image generation model, as a serverless endpoint on RunPod via a Docker image. Stable Diffusion 2 enables the generation of high-quality images from text prompts, making it ideal for applications in creative content generation.
 
 ## Features include: 
 - Serverless Deployment: Deploy Stable Diffusion 2 as a serverless endpoint on RunPod, minimizing infrastructure management.
@@ -9,7 +9,7 @@ This weekend project demonstrates the basic deployment of Stable Diffusion 2, a 
 - Flexible Integration: Easily integrate the deployed endpoint into various applications and workflows.
 
 ## Results
-After deploying Stable Diffusion 2 on RunPod, the model performs well, generating high-quality images based on text prompts such as 'Photograph of colorful coral reefs', 'An old photo of cowboys' and 'Watercolor image of a forest'. Inferencing time averages around 7-8 seconds per request, depending on the complexity of the prompt and the RunPod instance used.
+The model was deployed on RunPod via a Docker image created using a RunPod worker template. The model performs well, generating high-quality images based on text prompts such as 'Photograph of colorful coral reefs', 'An old photo of cowboys' and 'Watercolor image of a forest'. Inferencing time averages around 7-8 seconds per request, depending on the complexity of the prompt and the RunPod instance used.
 
 ## Notes
 - **Python Libraries/Tools**: diffusers, transformers, RunPod SDK
